@@ -5,8 +5,6 @@ from psycopg2.pool import ThreadedConnectionPool
 import psycopg2.extras
 from datetime import date
 
-# ======= РЕДАКТИРУЙ ЭТУ СТРОКУ ПОД СВОЮ БАЗУ =========
-# Формат: "host=HOST port=PORT dbname=DBNAME user=USER password=PASSWORD"
 CONNECTION_DSN = "host=localhost port=5432 dbname=Raspisanie user=postgres password=1234"
 POOL_MINCONN = 1
 POOL_MAXCONN = 10

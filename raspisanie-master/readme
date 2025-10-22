@@ -1,0 +1,9 @@
+py -m venv .venv
+
+.venv\Scripts\Activate.ps1
+
+на всякий pip install -r requirements.txt
+
+uvicorn app.api:app --reload --host 127.0.0.1 --port 8000
+
+ - фильтр работает только после того как подгрузить xотя-бы одну вкладку другую

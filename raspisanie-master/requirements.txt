@@ -1,0 +1,45 @@
+# --- Основные (FastAPI и сервер) ---
+# --- pip install -r requirements.txt---
+fastapi==0.95.2
+uvicorn==0.22.0
+Jinja2==3.1.2
+python-multipart==0.0.6
+pydantic==1.10.24
+starlette==0.27.0
+
+# --- База данных (SQLAlchemy и PostgreSQL) ---
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.10
+
+# --- Работа с документами (Word, Excel, PDF) ---
+python-docx==1.1.0
+reportlab==4.0.8
+pandas==2.3.2
+openpyxl==3.1.5
+numpy==2.3.3
+
+# --- Тестирование (Pytest и клиент) ---
+pytest==7.4.3
+httpx==0.25.1
+
+# --- Вспомогательные зависимости ---
+annotated-types==0.7.0
+anyio==4.11.0
+click==8.3.0
+colorama==0.4.6
+et_xmlfile==2.0.0
+h11==0.16.0
+httptools==0.6.4
+idna==3.10
+MarkupSafe==3.0.2
+python-dateutil==2.9.0.post0
+python-dotenv==1.1.1
+pytz==2025.2
+PyYAML==6.0.3
+six==1.17.0
+sniffio==1.3.1
+typing_extensions==4.15.0
+typing-inspection==0.4.1
+tzdata==2025.2
+watchfiles==1.1.0
+websockets==15.0.1
